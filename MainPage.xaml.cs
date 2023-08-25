@@ -7,7 +7,7 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 		//Nese contexto, o +=
-		billInput.TestChanged += (s, e) => CalculateTip(false, false);
+		billInput.TextChanged += (s, e) => CalculateTip(false, false);
 		roundDown.Clicked += (s, e) => CalculateTip(false, true);
         roundUp.Clicked += (s, e) => CalculateTip(true, false);
 
@@ -22,7 +22,7 @@ public partial class MainPage : ContentPage
 	void CalculateTip(bool roundUp, bool roundDown)
 	{
 		double t;
-		if (double.TryParse(billInut.Text, out t)&& t > o)
+		if (double.TryParse(billInput.Text, out t)&& t > 0)
 		{
 			double pct = Math.Round(tipPercentSlider.Value);
 			double tip = Math.Round(t * (pct / 100.0), 2);
@@ -35,8 +35,8 @@ public partial class MainPage : ContentPage
 				tip = final - t;
 			}
 
-			tipOutput.Text = tip.ToString(tip);
-			totalOutput.Text = final.ToString(final);
+			tipOutput.Text = tip.ToString("C");
+			totalOutput.Text = final.ToString("C");
 		}
 
 	}

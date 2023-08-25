@@ -1,1 +1,1 @@
-D:\Projetos\TipoCalculetor\TipoCalculetor.csproj;x64
+C:\Users\etechas\Aula-4PMI\TipoCalculetor.csproj;x64

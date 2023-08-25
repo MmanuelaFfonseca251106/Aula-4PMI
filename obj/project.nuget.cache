@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CP89Zblxr5B7hf2hKQGx/P/Gjjl9QkghsAl1wpdICugzk1U5wMZyUfvZNWtblHg2vr4ZYhlrZVtv6C6n230ymw==",
+  "dgSpecHash": "YUurznhOEd8TGIuuJciLn3uGTS020cxnpLBfM0hZVOeRw13R6b8/eHm2qhisCIwCZVxbGbMUnQOnFWJO2UHpxQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\TipoCalculetor\\TipoCalculetor.csproj",
+  "projectFilePath": "C:\\Users\\etechas\\Aula-4PMI\\TipoCalculetor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etechas\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

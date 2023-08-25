@@ -24015,11 +24015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\TipoCalculetor\\TipoCalculetor.csproj",
+      "projectUniqueName": "C:\\Users\\etechas\\Aula-4PMI\\TipoCalculetor.csproj",
       "projectName": "TipoCalculetor",
-      "projectPath": "D:\\Projetos\\TipoCalculetor\\TipoCalculetor.csproj",
+      "projectPath": "C:\\Users\\etechas\\Aula-4PMI\\TipoCalculetor.csproj",
       "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\TipoCalculetor\\obj\\",
+      "outputPath": "C:\\Users\\etechas\\Aula-4PMI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
